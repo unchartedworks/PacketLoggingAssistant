@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2304A717AE7FFC008553F2 /* DeviceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A317AE7FFC008553F2 /* DeviceMonitor.m */; };
+		EC2304A817AE7FFC008553F2 /* DeviceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A317AE7FFC008553F2 /* DeviceMonitor.m */; };
+		EC2304A917AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */; };
+		EC2304AA17AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */; };
+		EC2B8B9117918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */; };
+		EC2B8BA61791A6B70045E882 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B8BA51791A6B70045E882 /* WindowController.m */; };
+		EC3331C3179298A50088545B /* app.iconset in Resources */ = {isa = PBXBuildFile; fileRef = EC3331C2179298A50088545B /* app.iconset */; };
+		EC9AD0441791428A004EDA7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9AD0431791428A004EDA7E /* Cocoa.framework */; };
+		EC9AD04E1791428A004EDA7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9AD04C1791428A004EDA7E /* InfoPlist.strings */; };
+		EC9AD0501791428A004EDA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9AD04F1791428A004EDA7E /* main.m */; };
+		EC9AD0541791428B004EDA7E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EC9AD0521791428A004EDA7E /* Credits.rtf */; };
+		EC9AD0571791428B004EDA7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9AD0561791428B004EDA7E /* AppDelegate.m */; };
+		EC9AD05A1791428B004EDA7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9AD0581791428B004EDA7E /* MainMenu.xib */; };
+		EC9AD05D1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC9AD05B1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodeld */; };
+		EC9AD0651791428B004EDA7E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9AD0641791428B004EDA7E /* SenTestingKit.framework */; };
+		EC9AD0661791428B004EDA7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9AD0431791428A004EDA7E /* Cocoa.framework */; };
+		EC9AD06E1791428B004EDA7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9AD06C1791428B004EDA7E /* InfoPlist.strings */; };
+		EC9AD0711791428B004EDA7E /* DeviceMonitorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9AD0701791428B004EDA7E /* DeviceMonitorSpec.m */; };
+		ECA94BCD179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA94BCC179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a */; };
+		ECDE97DE1792EC6700A71CDE /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDE97DC1792EC6700A71CDE /* AboutWindow.xib */; };
+		ECDE97E1179310A300A71CDE /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE97DF179310A200A71CDE /* icon_16x16.png */; };
+		ECDE97E2179310A300A71CDE /* icon_16x16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9AD0671791428B004EDA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9AD0381791428A004EDA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9AD03F1791428A004EDA7E;
+			remoteInfo = PacketLoggingAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-PacketLoggingAssistantTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		EC2304A217AE7FFC008553F2 /* DeviceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMonitor.h; sourceTree = "<group>"; };
+		EC2304A317AE7FFC008553F2 /* DeviceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceMonitor.m; sourceTree = "<group>"; };
+		EC2304A417AE7FFC008553F2 /* MobileDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
+		EC2304A517AE7FFC008553F2 /* VirtualNetworkInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualNetworkInterfaceManager.h; sourceTree = "<group>"; };
+		EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualNetworkInterfaceManager.m; sourceTree = "<group>"; };
+		EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualNetworkInterfaceManagerSpec.m; sourceTree = "<group>"; };
+		EC2B8BA41791A6B70045E882 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		EC2B8BA51791A6B70045E882 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		EC3331C2179298A50088545B /* app.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = app.iconset; path = ../app.iconset; sourceTree = "<group>"; };
+		EC9AD0401791428A004EDA7E /* PacketLoggingAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacketLoggingAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9AD0431791428A004EDA7E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EC9AD0461791428A004EDA7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EC9AD0471791428A004EDA7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC9AD0481791428A004EDA7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC9AD04B1791428A004EDA7E /* PacketLoggingAssistant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PacketLoggingAssistant-Info.plist"; sourceTree = "<group>"; };
+		EC9AD04D1791428A004EDA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC9AD04F1791428A004EDA7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9AD0511791428A004EDA7E /* PacketLoggingAssistant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PacketLoggingAssistant-Prefix.pch"; sourceTree = "<group>"; };
+		EC9AD0531791428A004EDA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EC9AD0551791428B004EDA7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9AD0561791428B004EDA7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9AD0591791428B004EDA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC9AD05C1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PacketLoggingAssistant.xcdatamodel; sourceTree = "<group>"; };
+		EC9AD0631791428B004EDA7E /* PacketLoggingAssistantTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PacketLoggingAssistantTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9AD0641791428B004EDA7E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC9AD06B1791428B004EDA7E /* PacketLoggingAssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PacketLoggingAssistantTests-Info.plist"; sourceTree = "<group>"; };
+		EC9AD06D1791428B004EDA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC9AD0701791428B004EDA7E /* DeviceMonitorSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceMonitorSpec.m; sourceTree = "<group>"; };
+		ECA94BCC179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPods-PacketLoggingAssistantTests-Kiwi.a"; sourceTree = "<group>"; };
+		ECDE97DD1792EC6700A71CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutWindow.xib; sourceTree = "<group>"; };
+		ECDE97DF179310A200A71CDE /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = SOURCE_ROOT; };
+		ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9AD03D1791428A004EDA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9AD0441791428A004EDA7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9AD05F1791428B004EDA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9AD0651791428B004EDA7E /* SenTestingKit.framework in Frameworks */,
+				ECA94BCD179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a in Frameworks */,
+				EC9AD0661791428B004EDA7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2304A117AE7FFC008553F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC2304A217AE7FFC008553F2 /* DeviceMonitor.h */,
+				EC2304A317AE7FFC008553F2 /* DeviceMonitor.m */,
+				EC2304A417AE7FFC008553F2 /* MobileDevice.h */,
+				EC2304A517AE7FFC008553F2 /* VirtualNetworkInterfaceManager.h */,
+				EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC2304AB17AE8012008553F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC9AD0581791428B004EDA7E /* MainMenu.xib */,
+				ECDE97DC1792EC6700A71CDE /* AboutWindow.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EC2304AC17AE802D008553F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC3331C2179298A50088545B /* app.iconset */,
+				ECDE97DF179310A200A71CDE /* icon_16x16.png */,
+				ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC2B8B9D17918F370045E882 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC2B8BA41791A6B70045E882 /* WindowController.h */,
+				EC2B8BA51791A6B70045E882 /* WindowController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC9AD0371791428A004EDA7E = {
+			isa = PBXGroup;
+			children = (
+				EC9AD0491791428A004EDA7E /* PacketLoggingAssistant */,
+				EC9AD0691791428B004EDA7E /* PacketLoggingAssistantTests */,
+				EC9AD0421791428A004EDA7E /* Frameworks */,
+				EC9AD0411791428A004EDA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9AD0411791428A004EDA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9AD0401791428A004EDA7E /* PacketLoggingAssistant.app */,
+				EC9AD0631791428B004EDA7E /* PacketLoggingAssistantTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9AD0421791428A004EDA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA94BCC179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a */,
+				EC9AD0431791428A004EDA7E /* Cocoa.framework */,
+				EC9AD0641791428B004EDA7E /* SenTestingKit.framework */,
+				EC9AD0451791428A004EDA7E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9AD0451791428A004EDA7E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9AD0461791428A004EDA7E /* AppKit.framework */,
+				EC9AD0471791428A004EDA7E /* CoreData.framework */,
+				EC9AD0481791428A004EDA7E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EC9AD0491791428A004EDA7E /* PacketLoggingAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				EC2304AB17AE8012008553F2 /* View */,
+				EC2B8B9D17918F370045E882 /* ViewController */,
+				EC2304A117AE7FFC008553F2 /* Model */,
+				EC9AD0551791428B004EDA7E /* AppDelegate.h */,
+				EC9AD0561791428B004EDA7E /* AppDelegate.m */,
+				EC2304AC17AE802D008553F2 /* Resources */,
+				EC9AD04A1791428A004EDA7E /* Supporting Files */,
+			);
+			path = PacketLoggingAssistant;
+			sourceTree = "<group>";
+		};
+		EC9AD04A1791428A004EDA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */,
+				EC9AD05B1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodeld */,
+				EC9AD04B1791428A004EDA7E /* PacketLoggingAssistant-Info.plist */,
+				EC9AD04C1791428A004EDA7E /* InfoPlist.strings */,
+				EC9AD04F1791428A004EDA7E /* main.m */,
+				EC9AD0511791428A004EDA7E /* PacketLoggingAssistant-Prefix.pch */,
+				EC9AD0521791428A004EDA7E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9AD0691791428B004EDA7E /* PacketLoggingAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9AD0701791428B004EDA7E /* DeviceMonitorSpec.m */,
+				EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */,
+				EC9AD06A1791428B004EDA7E /* Supporting Files */,
+			);
+			path = PacketLoggingAssistantTests;
+			sourceTree = "<group>";
+		};
+		EC9AD06A1791428B004EDA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9AD06B1791428B004EDA7E /* PacketLoggingAssistantTests-Info.plist */,
+				EC9AD06C1791428B004EDA7E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9AD03F1791428A004EDA7E /* PacketLoggingAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9AD0741791428B004EDA7E /* Build configuration list for PBXNativeTarget "PacketLoggingAssistant" */;
+			buildPhases = (
+				EC9AD03C1791428A004EDA7E /* Sources */,
+				EC9AD03D1791428A004EDA7E /* Frameworks */,
+				EC9AD03E1791428A004EDA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacketLoggingAssistant;
+			productName = PacketLoggingAssistant;
+			productReference = EC9AD0401791428A004EDA7E /* PacketLoggingAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9AD0621791428B004EDA7E /* PacketLoggingAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9AD0771791428B004EDA7E /* Build configuration list for PBXNativeTarget "PacketLoggingAssistantTests" */;
+			buildPhases = (
+				E520073316624222B326E7D2 /* Check Pods Manifest.lock */,
+				EC9AD05E1791428B004EDA7E /* Sources */,
+				EC9AD05F1791428B004EDA7E /* Frameworks */,
+				EC9AD0601791428B004EDA7E /* Resources */,
+				EC9AD0611791428B004EDA7E /* ShellScript */,
+				2206F3A3172F4EF6BD396ED9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9AD0681791428B004EDA7E /* PBXTargetDependency */,
+			);
+			name = PacketLoggingAssistantTests;
+			productName = PacketLoggingAssistantTests;
+			productReference = EC9AD0631791428B004EDA7E /* PacketLoggingAssistantTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9AD0381791428A004EDA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Uncharted Works";
+			};
+			buildConfigurationList = EC9AD03B1791428A004EDA7E /* Build configuration list for PBXProject "PacketLoggingAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC9AD0371791428A004EDA7E;
+			productRefGroup = EC9AD0411791428A004EDA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9AD03F1791428A004EDA7E /* PacketLoggingAssistant */,
+				EC9AD0621791428B004EDA7E /* PacketLoggingAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9AD03E1791428A004EDA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE97E2179310A300A71CDE /* icon_16x16@2x.png in Resources */,
+				EC9AD04E1791428A004EDA7E /* InfoPlist.strings in Resources */,
+				EC9AD0541791428B004EDA7E /* Credits.rtf in Resources */,
+				ECDE97DE1792EC6700A71CDE /* AboutWindow.xib in Resources */,
+				ECDE97E1179310A300A71CDE /* icon_16x16.png in Resources */,
+				EC9AD05A1791428B004EDA7E /* MainMenu.xib in Resources */,
+				EC3331C3179298A50088545B /* app.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9AD0601791428B004EDA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9AD06E1791428B004EDA7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2206F3A3172F4EF6BD396ED9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-PacketLoggingAssistantTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E520073316624222B326E7D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9AD0611791428B004EDA7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9AD03C1791428A004EDA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9AD0501791428A004EDA7E /* main.m in Sources */,
+				EC2B8BA61791A6B70045E882 /* WindowController.m in Sources */,
+				EC2304A917AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */,
+				EC9AD0571791428B004EDA7E /* AppDelegate.m in Sources */,
+				EC9AD05D1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodeld in Sources */,
+				EC2304A717AE7FFC008553F2 /* DeviceMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9AD05E1791428B004EDA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2304AA17AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */,
+				EC2304A817AE7FFC008553F2 /* DeviceMonitor.m in Sources */,
+				EC9AD0711791428B004EDA7E /* DeviceMonitorSpec.m in Sources */,
+				EC2B8B9117918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9AD0681791428B004EDA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9AD03F1791428A004EDA7E /* PacketLoggingAssistant */;
+			targetProxy = EC9AD0671791428B004EDA7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9AD04C1791428A004EDA7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9AD04D1791428A004EDA7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC9AD0521791428A004EDA7E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9AD0531791428A004EDA7E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EC9AD0581791428B004EDA7E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9AD0591791428B004EDA7E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EC9AD06C1791428B004EDA7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9AD06D1791428B004EDA7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECDE97DC1792EC6700A71CDE /* AboutWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDE97DD1792EC6700A71CDE /* en */,
+			);
+			name = AboutWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9AD0721791428B004EDA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC9AD0731791428B004EDA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC9AD0751791428B004EDA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Liang Yuan (NA5BE2D52P)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacketLoggingAssistant/PacketLoggingAssistant-Prefix.pch";
+				INFOPLIST_FILE = "PacketLoggingAssistant/PacketLoggingAssistant-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					MobileDevice,
+					"-F/System/Library/PrivateFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC9AD0761791428B004EDA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Liang Yuan (NA5BE2D52P)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacketLoggingAssistant/PacketLoggingAssistant-Prefix.pch";
+				INFOPLIST_FILE = "PacketLoggingAssistant/PacketLoggingAssistant-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					MobileDevice,
+					"-F/System/Library/PrivateFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC9AD0781791428B004EDA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PacketLoggingAssistant.app/Contents/MacOS/PacketLoggingAssistant";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacketLoggingAssistant/PacketLoggingAssistant-Prefix.pch";
+				INFOPLIST_FILE = "PacketLoggingAssistantTests/PacketLoggingAssistantTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"${PODS_PACKETLOGGINGASSISTANTTESTS_KIWI_OTHER_LDFLAGS}",
+					"-framework",
+					MobileDevice,
+					"-F/System/Library/PrivateFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EC9AD0791791428B004EDA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PacketLoggingAssistant.app/Contents/MacOS/PacketLoggingAssistant";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacketLoggingAssistant/PacketLoggingAssistant-Prefix.pch";
+				INFOPLIST_FILE = "PacketLoggingAssistantTests/PacketLoggingAssistantTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"${PODS_PACKETLOGGINGASSISTANTTESTS_KIWI_OTHER_LDFLAGS}",
+					"-framework",
+					MobileDevice,
+					"-F/System/Library/PrivateFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9AD03B1791428A004EDA7E /* Build configuration list for PBXProject "PacketLoggingAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9AD0721791428B004EDA7E /* Debug */,
+				EC9AD0731791428B004EDA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9AD0741791428B004EDA7E /* Build configuration list for PBXNativeTarget "PacketLoggingAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9AD0751791428B004EDA7E /* Debug */,
+				EC9AD0761791428B004EDA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9AD0771791428B004EDA7E /* Build configuration list for PBXNativeTarget "PacketLoggingAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9AD0781791428B004EDA7E /* Debug */,
+				EC9AD0791791428B004EDA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC9AD05B1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC9AD05C1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodel */,
+			);
+			currentVersion = EC9AD05C1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodel */;
+			path = PacketLoggingAssistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC9AD0381791428A004EDA7E /* Project object */;
+}

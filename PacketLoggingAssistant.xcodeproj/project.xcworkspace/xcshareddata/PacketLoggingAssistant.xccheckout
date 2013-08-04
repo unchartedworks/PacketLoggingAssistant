@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91427F7E-5A6A-4F57-9A43-9CE2AFA3714C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PacketLoggingAssistant</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0CF7447A-AFC6-4C9E-90F0-6585056D8AD5</key>
+		<string>https://bitbucket.org/unchartedworks/packetloggingassistant.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PacketLoggingAssistant.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0CF7447A-AFC6-4C9E-90F0-6585056D8AD5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/unchartedworks/packetloggingassistant.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CF7447A-AFC6-4C9E-90F0-6585056D8AD5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0CF7447A-AFC6-4C9E-90F0-6585056D8AD5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PacketLoggingAssistant</string>
+		</dict>
+	</array>
+</dict>
+</plist>
