@@ -18,18 +18,21 @@ I strongly suggest you to install the latest Wireshark, the old Wireshark can’
 
 ###How to use it?
 
-1.Start Packet Logging Assistant
+**1. Start Packet Logging Assistant**
 
 ![](http://www.unchartedworks.com/pla/files/pasted-graphic.jpg)
 
-2.Connect your iPhone to your Mac
+**2. Connect your iPhone to your Mac**
 
-3.Start Wireshark and select the network interface rvi0. (it depends on how many iOS devices connected to your Mac) 
+**3. Start Wireshark and select the network interface rvi0.**
+
+(it depends on how many iOS devices connected to your Mac)
+
 ![](http://www.unchartedworks.com/pla/files/screen-shot-2013-07-14-at-18.20.53.png)
 
 If you can’t see rvi0, you can try to disconnect your iOS device and connect it again.
 If you have multiple devices, you might see rvi0, rvi1, rvi2 …, just select the device you want to log packets.
 
-4.Click Start button of Wireshark to log packets
+**4. Click Start button of Wireshark to log packets**
 
 ![](http://www.unchartedworks.com/pla/files/screen-shot-2013-07-14-at-18.36.59.png)
