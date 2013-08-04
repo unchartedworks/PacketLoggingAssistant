@@ -11,6 +11,7 @@
 		EC2304A817AE7FFC008553F2 /* DeviceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A317AE7FFC008553F2 /* DeviceMonitor.m */; };
 		EC2304A917AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */; };
 		EC2304AA17AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */; };
+		EC2304AE17AE86ED008553F2 /* libPods-PacketLoggingAssistantTests-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2304AD17AE86ED008553F2 /* libPods-PacketLoggingAssistantTests-Kiwi.a */; };
 		EC2B8B9117918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */; };
 		EC2B8BA61791A6B70045E882 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B8BA51791A6B70045E882 /* WindowController.m */; };
 		EC3331C3179298A50088545B /* app.iconset in Resources */ = {isa = PBXBuildFile; fileRef = EC3331C2179298A50088545B /* app.iconset */; };
@@ -24,8 +25,6 @@
 		EC9AD0651791428B004EDA7E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9AD0641791428B004EDA7E /* SenTestingKit.framework */; };
 		EC9AD0661791428B004EDA7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9AD0431791428A004EDA7E /* Cocoa.framework */; };
 		EC9AD06E1791428B004EDA7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9AD06C1791428B004EDA7E /* InfoPlist.strings */; };
-		EC9AD0711791428B004EDA7E /* DeviceMonitorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9AD0701791428B004EDA7E /* DeviceMonitorSpec.m */; };
-		ECA94BCD179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA94BCC179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a */; };
 		ECDE97DE1792EC6700A71CDE /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDE97DC1792EC6700A71CDE /* AboutWindow.xib */; };
 		ECDE97E1179310A300A71CDE /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE97DF179310A200A71CDE /* icon_16x16.png */; };
 		ECDE97E2179310A300A71CDE /* icon_16x16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */; };
@@ -42,12 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-PacketLoggingAssistantTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		EC2304A217AE7FFC008553F2 /* DeviceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMonitor.h; sourceTree = "<group>"; };
 		EC2304A317AE7FFC008553F2 /* DeviceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceMonitor.m; sourceTree = "<group>"; };
 		EC2304A417AE7FFC008553F2 /* MobileDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
 		EC2304A517AE7FFC008553F2 /* VirtualNetworkInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualNetworkInterfaceManager.h; sourceTree = "<group>"; };
 		EC2304A617AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualNetworkInterfaceManager.m; sourceTree = "<group>"; };
+		EC2304AD17AE86ED008553F2 /* libPods-PacketLoggingAssistantTests-Kiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PacketLoggingAssistantTests-Kiwi.a"; path = "PacketLoggingAssistant/Frameworks/libPods-PacketLoggingAssistantTests-Kiwi.a"; sourceTree = "<group>"; };
+		EC2304AF17AE88BA008553F2 /* Pods-PacketLoggingAssistantTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-PacketLoggingAssistantTests.xcconfig"; path = "Pods/Pods-PacketLoggingAssistantTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualNetworkInterfaceManagerSpec.m; sourceTree = "<group>"; };
 		EC2B8BA41791A6B70045E882 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		EC2B8BA51791A6B70045E882 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
@@ -70,8 +70,6 @@
 		EC9AD0641791428B004EDA7E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		EC9AD06B1791428B004EDA7E /* PacketLoggingAssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PacketLoggingAssistantTests-Info.plist"; sourceTree = "<group>"; };
 		EC9AD06D1791428B004EDA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC9AD0701791428B004EDA7E /* DeviceMonitorSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceMonitorSpec.m; sourceTree = "<group>"; };
-		ECA94BCC179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPods-PacketLoggingAssistantTests-Kiwi.a"; sourceTree = "<group>"; };
 		ECDE97DD1792EC6700A71CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutWindow.xib; sourceTree = "<group>"; };
 		ECDE97DF179310A200A71CDE /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = SOURCE_ROOT; };
 		ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -91,7 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9AD0651791428B004EDA7E /* SenTestingKit.framework in Frameworks */,
-				ECA94BCD179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a in Frameworks */,
+				EC2304AE17AE86ED008553F2 /* libPods-PacketLoggingAssistantTests-Kiwi.a in Frameworks */,
 				EC9AD0661791428B004EDA7E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +159,7 @@
 		EC9AD0421791428A004EDA7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ECA94BCC179149DD0067A807 /* libPods-PacketLoggingAssistantTests-Kiwi.a */,
+				EC2304AD17AE86ED008553F2 /* libPods-PacketLoggingAssistantTests-Kiwi.a */,
 				EC9AD0431791428A004EDA7E /* Cocoa.framework */,
 				EC9AD0641791428B004EDA7E /* SenTestingKit.framework */,
 				EC9AD0451791428A004EDA7E /* Other Frameworks */,
@@ -196,7 +194,7 @@
 		EC9AD04A1791428A004EDA7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */,
+				EC2304AF17AE88BA008553F2 /* Pods-PacketLoggingAssistantTests.xcconfig */,
 				EC9AD05B1791428B004EDA7E /* PacketLoggingAssistant.xcdatamodeld */,
 				EC9AD04B1791428A004EDA7E /* PacketLoggingAssistant-Info.plist */,
 				EC9AD04C1791428A004EDA7E /* InfoPlist.strings */,
@@ -210,7 +208,6 @@
 		EC9AD0691791428B004EDA7E /* PacketLoggingAssistantTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC9AD0701791428B004EDA7E /* DeviceMonitorSpec.m */,
 				EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */,
 				EC9AD06A1791428B004EDA7E /* Supporting Files */,
 			);
@@ -250,12 +247,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC9AD0771791428B004EDA7E /* Build configuration list for PBXNativeTarget "PacketLoggingAssistantTests" */;
 			buildPhases = (
-				E520073316624222B326E7D2 /* Check Pods Manifest.lock */,
 				EC9AD05E1791428B004EDA7E /* Sources */,
 				EC9AD05F1791428B004EDA7E /* Frameworks */,
 				EC9AD0601791428B004EDA7E /* Resources */,
 				EC9AD0611791428B004EDA7E /* ShellScript */,
-				2206F3A3172F4EF6BD396ED9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,36 +315,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2206F3A3172F4EF6BD396ED9 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-PacketLoggingAssistantTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E520073316624222B326E7D2 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		EC9AD0611791428B004EDA7E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,7 +350,6 @@
 			files = (
 				EC2304AA17AE7FFC008553F2 /* VirtualNetworkInterfaceManager.m in Sources */,
 				EC2304A817AE7FFC008553F2 /* DeviceMonitor.m in Sources */,
-				EC9AD0711791428B004EDA7E /* DeviceMonitorSpec.m in Sources */,
 				EC2B8B9117918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,7 +507,6 @@
 		};
 		EC9AD0781791428B004EDA7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PacketLoggingAssistant.app/Contents/MacOS/PacketLoggingAssistant";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -554,6 +517,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					/Users/liang/Dropbox/Projects/OSX/PacketLoggingAssistant/PacketLoggingAssistant/Frameworks,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -564,6 +528,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = Pods/Headers/Kiwi/;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -571,7 +536,6 @@
 		};
 		EC9AD0791791428B004EDA7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B2395191744F06B625D2FB /* Pods/Pods-PacketLoggingAssistantTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PacketLoggingAssistant.app/Contents/MacOS/PacketLoggingAssistant";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -582,6 +546,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					/Users/liang/Dropbox/Projects/OSX/PacketLoggingAssistant/PacketLoggingAssistant/Frameworks,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -592,6 +557,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = Pods/Headers/Kiwi/;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = octest;
 			};
