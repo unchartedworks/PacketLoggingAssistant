@@ -36,3 +36,7 @@ If you have multiple devices, you might see rvi0, rvi1, rvi2 …, just select th
 **4. Click Start button of Wireshark to log packets**
 
 ![](http://www.unchartedworks.com/pla/files/screen-shot-2013-07-14-at-18.36.59.png)
+
+###License
+
+MIT. See LICENSE file.
