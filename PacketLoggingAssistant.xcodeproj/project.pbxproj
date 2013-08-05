@@ -51,7 +51,7 @@
 		EC2B8B8F17918E280045E882 /* VirtualNetworkInterfaceManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualNetworkInterfaceManagerSpec.m; sourceTree = "<group>"; };
 		EC2B8BA41791A6B70045E882 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		EC2B8BA51791A6B70045E882 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
-		EC3331C2179298A50088545B /* app.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = app.iconset; path = ../app.iconset; sourceTree = "<group>"; };
+		EC3331C2179298A50088545B /* app.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = app.iconset; path = PacketLoggingAssistant/Resources/app.iconset; sourceTree = SOURCE_ROOT; };
 		EC9AD0401791428A004EDA7E /* PacketLoggingAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacketLoggingAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9AD0431791428A004EDA7E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EC9AD0461791428A004EDA7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -71,8 +71,8 @@
 		EC9AD06B1791428B004EDA7E /* PacketLoggingAssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PacketLoggingAssistantTests-Info.plist"; sourceTree = "<group>"; };
 		EC9AD06D1791428B004EDA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECDE97DD1792EC6700A71CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutWindow.xib; sourceTree = "<group>"; };
-		ECDE97DF179310A200A71CDE /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = SOURCE_ROOT; };
-		ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
+		ECDE97DF179310A200A71CDE /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_16x16.png; path = PacketLoggingAssistant/Resources/icon_16x16.png; sourceTree = SOURCE_ROOT; };
+		ECDE97E0179310A300A71CDE /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_16x16@2x.png"; path = "PacketLoggingAssistant/Resources/icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
